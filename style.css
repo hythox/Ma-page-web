@@ -1,63 +1,17 @@
-#banniere
-{
-height: 10%; /* La bannière fera 20% de la hauteur de la page... */
-width: 100%; /* et 100% de la largeur. */
-background-image : url("../Images/Page.jpg/");
+html
+body {
+background: dimgray;
 }
 
-.navigation ul {
-
-    list-style-type: none;
-
-    margin: 0;
-
-    padding: 0; 
-
-    overflow: hidden;
-
-    height: 10vh;
-
-    justify-content: center;
-
-    display: flex;
-
-} 
-
- 
-
-li{
-
-    width: 160px;
-
+h1{
     text-align: center;
-
+    color: darkturquoise;
+    font size: 5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',sans-serif 
 }
 
- 
 
-li a {
 
-    display: block;
-
-    color: white;
-
-    padding: 40px 20px;
-
-    text-decoration: none;
-
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-
+body > header {
+    background-image: url()
 }
-
- 
-
-li a:hover {
-
-    background-color: white;
-
-    color: black;
-
-}
-
-header{background-image: url(Page.jpg);}
-
