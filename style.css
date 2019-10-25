@@ -7,11 +7,34 @@ h1{
     text-align: center;
     color: darkturquoise;
     font size: 5em;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',sans-serif 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+
+body > header {
+    background-image: url();
+    padding: 30px 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 
 
 body > header {
-    background-image: url()
+    background-image: url(Fond 1.png)
 }
+.wrapper { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 100px; 
+  } 
+  .box1 { 
+    grid-column-start: 1; 
+    grid-column-end: 4; 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+  } 
+  .box2 { 
+    grid-column-start: 1; 
+    grid-row-start: 3; 
+    grid-row-end: 5; 
+  }
