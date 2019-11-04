@@ -1,0 +1,12 @@
+#grillesg {
+    display: grid;
+    grid-template-columns: 8fr 8fr;
+    grid-auto-rows: minmax(auto);
+    grid-column-gap: 10px;
+
+    grid-row-gap: 3em;
+  }
+ 
+#grille2 {
+    background-color: royalblue;
+}
