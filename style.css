@@ -60,23 +60,8 @@ h2{
 
 }
 
-img{
 
-    align-self: auto;
 
-    width: 280px;
-
-    height: 300px;
-
-}
-
-#coordonnees {
-
-    background-color: white;
-
-    color: black;
-
-}
 
 
 
@@ -86,14 +71,8 @@ img{
 
 }
 
-body {
 
-   display: grid; grid-template-columns: 340px 1fr;
-
-
-
-}
 #imgfond{
-    width: 100%;
+    width: 500px;
     height: auto;
 }
