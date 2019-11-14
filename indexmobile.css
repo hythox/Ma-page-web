@@ -6,15 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media all and (max-width)
-{contenu des instruction
-}
-@media(min-width:480xp) and (max-width:780px)
-{contenu des instruction
-}
-@media(min-width:781xp) and (max-width:979px)
-{contenu des instruction
-}
+
 
 h1{
 
@@ -73,6 +65,6 @@ h2{
 
 
 #imgfond{
-    width: 500px;
+    width: 320px;
     height: auto;
 }
