@@ -6,21 +6,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media all and (max-width)
-{contenu des instruction
-}
-@media(min-width:480xp) and (max-width:780px)
-{contenu des instruction
-}
-@media(min-width:781xp) and (max-width:979px)
-{contenu des instruction
-}
 
 h1{
 
 text-align: center;
 
-color: white;
+color: brown;
 
 font-size: 5em;
 
@@ -32,6 +23,8 @@ h2 {
 
     text-align: center;
 
+    color: brown;
+
 }
 
 
@@ -40,7 +33,6 @@ h2 {
 
 body > header {
 
-    background-image: url("mark.jpg");
 
     padding: 30px 10px;
 
@@ -51,15 +43,6 @@ body > header {
 }
 
  
-
-h2{
-
-    text-align: center;
-
-    color: white;
-
-}
-
 
 
 
@@ -75,4 +58,78 @@ h2{
 #imgfond{
     width: 500px;
     height: auto;
+}
+
+div#slider { width: 80%;max-width: 2000px;}
+
+div#slider figure {
+
+    position: relative;
+    width: 300%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+
+.img
+
+
+
+
+ 
+
+ 
+
+ 
+
+li {
+
+    margin: 0px;
+
+    padding-left: 15%;
+
+    font-size: 10px;
+
+    text-align: center;
+
+    padding: 0px;
+
+    float: center;
+
+    width: 150px;
+
+    
+
+}
+
+ 
+
+li a {
+
+    display: block;
+
+    color: brown;
+
+    text-align: center;
+
+    padding: 30px 14px;
+
+    text-decoration: none;
+
+}
+
+ 
+
+li a:hover {
+
+    background-color: seashell;
+
+    color: rgb(50, 50, 50);
+
+}
+img {
+
+    max-width: 12%;
+	height: auto;
 }
