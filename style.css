@@ -7,24 +7,25 @@ body {
 }
 
 
-h1{
+h2{
 
 text-align: center;
 
 color: brown;
 
-font-size: 5em;
+font-size: 2em;
 
 font-family: fantasy;
 
 }
 
-h2 {
+h3 {
 
     text-align: center;
 
     color: brown;
 
+    font-size: 1em;
 }
 
 
@@ -130,6 +131,20 @@ li a:hover {
 }
 img {
 
-    max-width: 12%;
-	height: auto;
+    max-width: 350px;
+    height: auto;
+    text-align: center;
+    border: 1px #23282d solid;
+    display: table-cell;
+    vertical-align: middle;
 }
+
+iframe {
+    width: 350px;
+    align-items: center;
+    position:relative;
+overflow:hidden;
+}
+ 
+}
+
